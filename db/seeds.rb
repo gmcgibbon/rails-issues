@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create!(theme_song: {
+  io: Rails.root.join('test/fixtures/files/x.wav').open,
+  filename: 'x.wav',
+})
+User.create!(theme_song: {
+  io: Rails.root.join('test/fixtures/files/x.mp3').open,
+  filename: 'x.mp3',
+})
