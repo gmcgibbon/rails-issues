@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/rails/marcel.git
+  revision: e190f274d05e8b3dbf5fcae78f83d82df8bc61de
+  specs:
+    marcel (1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -93,7 +99,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.1)
     mini_portile2 (2.6.1)
@@ -207,6 +212,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  marcel!
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (= 7.0.0.alpha2)
